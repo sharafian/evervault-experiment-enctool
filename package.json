@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@evervault/sdk": "^1.1.5"
+  },
+  "name": "evervault-experiment",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "bin": {
+    "enctool": "./src/index.js"
+  }
+}
