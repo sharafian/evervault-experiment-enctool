@@ -4,7 +4,8 @@ Uses evervault cages to manage the encryption/decryption of a master key for
 client-side encryption.
 
 Proof of concept for using client-side encryption without having to store a
-backup key on one's own servers.
+backup key on one's own servers. The json file output by the `keygen` command
+could be safely uploaded to servers as only the cage has permission to decrypt.
 
 ## Usage
 
@@ -19,7 +20,7 @@ Set up evervault cages
 
 Run the tool to encrypt and decrypt a file
 
-```
+```sh
 > yarn
 > yarn link
 
